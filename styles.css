@@ -91,6 +91,7 @@
 
 /* Number text (1/3 etc) */
 .numbertext {
+  display: none;
   color: #CBD2D2;
   font-size: 12px;
   padding: 8px 12px;
@@ -121,11 +122,11 @@
 }
 
 /* Add a transparency effect for thumnbail images */
-.demo {
+.demo, .albums {
   opacity: 0.6;
 }
 
 .active,
-.demo:hover {
+.demo:hover, .albums:hover {
   opacity: 1;
 }
