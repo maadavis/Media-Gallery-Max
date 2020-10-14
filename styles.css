@@ -26,12 +26,17 @@
  top: 0;
 }
 
+/* Style the hover over effect */
 .topnav a:hover {
  color: white;
 }
 
 * {
   box-sizing: border-box;
+}
+
+/* Style body */
+body {
   background: #6190E8;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -42,8 +47,10 @@
   display: none;
 }
 
+/* Style album photos */
 .albums {
-  padding: 5px 5px 5px 5px;
+  border: 10px solid black;
+  margin: 10px;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -61,6 +68,7 @@
   color: black;
 }
 
+/* Content after row */
 .row:after {
   content: "";
   display: table;
@@ -78,6 +86,7 @@
   opacity: 0.6;
 }
 
+/* Removes transparency effect for thumbnail images */
 .active,
 .demo:hover, .albums:hover {
   opacity: 1;
